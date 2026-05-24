@@ -33,7 +33,7 @@ The website is built using simple static web technologies and can be hosted easi
 - Pricing
 
 ## Project Structure
-
+```text
 remote-tours-website/
 │
 ├── index.html
