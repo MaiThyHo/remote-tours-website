@@ -598,18 +598,15 @@ section {
   font-size: clamp(15px, 2vw, 19px);
   line-height: 1.45;
 }
-.logo-tile {
+.logo-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.logo-center img {
   width: 400px;
   height: 400px;
-  margin: 48px auto 0;
-  padding: 14px;
-  border-radius: 24px;
-  background: #ef9348;
-  box-shadow: 0 12px 25px rgba(0,0,0,.08);
-}
-.logo-tile img {
-  width: 100%;
-  height: 100%;
   object-fit: contain;
 }
 .pricing-spacer {
